@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  fetch_data:
+    build: .
+    container_name: fetch_data_container
+    restart: always
